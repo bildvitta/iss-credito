@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "bildvitta/iss-credito",
+    "description": "This is my package iss-credito",
     "keywords": [
-        ":vendor_name",
+        "bildvitta",
         "laravel",
-        ":package_slug"
+        "iss-credito"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/bildvitta/iss-credito",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Guilherme Haynes Howe",
+            "email": "guilherme.haynes@bild.com.br",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Bildvitta\\IssCredito\\": "src",
+            "Bildvitta\\IssCredito\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Bildvitta\\IssCredito\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Bildvitta\\IssCredito\\IssCreditoServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "IssCredito": "Bildvitta\\IssCredito\\Facades\\IssCredito"
             }
         }
     },

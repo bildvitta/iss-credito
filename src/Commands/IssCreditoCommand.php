@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Bildvitta\IssCredito\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class IssCreditoCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'iss-credito';
 
     public $description = 'My command';
 
