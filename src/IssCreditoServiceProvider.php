@@ -17,9 +17,9 @@ class IssCreditoServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('iss-credito')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_iss-credito_table')
-            ->hasCommand(IssCreditoCommand::class);
+            ->hasConfigFile();
+//            ->hasViews()
+//            ->hasMigration('create_iss-credito_table')
+//            ->hasCommand(IssCreditoCommand::class);
     }
 }
